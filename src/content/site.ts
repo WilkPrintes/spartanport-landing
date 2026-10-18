@@ -9,8 +9,8 @@ export const PAGE_REPO_URL = "https://github.com/WilkPrintes/gow3-pc-landing";
 export const AUTHOR_URL = "https://github.com/WilkPrintes";
 export const PORT_AUTHOR_URL = "https://github.com/FelipePrado0";
 
-/** Dedicated address for takedown requests, shown on /legal. Still being created; null shows a placeholder. */
-export const LEGAL_EMAIL: string | null = null;
+/** Dedicated address for takedown requests, shown on /legal. Null shows a placeholder. */
+export const LEGAL_EMAIL: string | null = "gow3pc@gmail.com";
 
 /** YouTube ID of the port video for the Performance section, embedded from youtube-nocookie.com. Null shows a placeholder. */
 export const PERFORMANCE_VIDEO_ID: string | null = "xmRmtdBPKew";
