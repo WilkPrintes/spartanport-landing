@@ -27,10 +27,12 @@ function Root({ solid, children }: { solid?: boolean; children: ReactNode }) {
 function Brand({ href, label, tagline }: { href: string; label: string; tagline: string }) {
   return (
     <Link href={href} className="group flex shrink-0 items-center gap-3" aria-label={label}>
-      {/* The project logo, from the gow3_pc repository (launcher/gow3.png) */}
-      <Image src={logo} alt="" width={38} height={38} className="rounded-lg ring-1 ring-white/10" priority />
+      {/* The SpartanPort monogram */}
+      <Image src={logo} alt="" width={40} height={40} priority />
       <span className="flex flex-col gap-1 leading-none">
-        <span className="font-mono text-[17px] font-bold tracking-[-0.01em]">gow3_pc</span>
+        <span className="font-display text-[19px] leading-none font-black">
+          Spartan<span className="text-primary-hover">Port</span>
+        </span>
         <span className="font-mono text-[11px] tracking-[0.08em] text-steel uppercase group-hover:text-gold-hi">{tagline}</span>
       </span>
     </Link>

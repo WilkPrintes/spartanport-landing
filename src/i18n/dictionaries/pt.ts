@@ -3,13 +3,13 @@ import type { GpuRow, ShotCopy, Tone, TutorialContent } from "@/i18n/types";
 // Source language. en.ts and es.ts are typed against this shape.
 const pt = {
   meta: {
-    title: "gow3_pc: port nativo não oficial para PC",
-    titleTemplate: "%s · gow3_pc",
+    title: "SpartanPort: port nativo não oficial para PC",
+    titleTemplate: "%s · SpartanPort",
     description: "Port nativo e não oficial de um jogo de PS4 para Windows e Linux. Roda a partir do dump da sua própria cópia (CUSA01623 ou CUSA01715). Código aberto, GPL-2.0.",
     tutorialsTitle: "Tutoriais",
-    tutorialsDescription: "Soluções para os problemas mais comuns do gow3_pc, a partir da linha que aparece no last_run.log.",
+    tutorialsDescription: "Soluções para os problemas mais comuns do SpartanPort, a partir da linha que aparece no last_run.log.",
     legalTitle: "Aviso legal",
-    legalDescription: "Aviso legal do gow3_pc: projeto não oficial, sem arquivos do jogo, com um canal para pedidos de remoção.",
+    legalDescription: "Aviso legal do SpartanPort: projeto não oficial, sem arquivos do jogo, com um canal para pedidos de remoção.",
   },
 
   common: {
@@ -26,7 +26,7 @@ const pt = {
   },
 
   header: {
-    homeAria: "gow3_pc, início",
+    homeAria: "SpartanPort, início",
     tagline: "Port não oficial",
     sectionsAria: "Seções",
     openMenu: "Abrir menu",
@@ -46,7 +46,7 @@ const pt = {
 
   hero: {
     eyebrow: "Port nativo não oficial · Windows e Linux",
-    title: "gow3_pc",
+    title: "SpartanPort",
     subtitle: "Port nativo e não oficial para PC de um clássico de ação do PS4. Você traz sua cópia, nós fornecemos o executável e o launcher.",
     lede: "Executa o jogo a partir do dump da sua própria cópia, direto na CPU e sem emulação. 120 FPS por padrão, até 240.",
     notice: "Projeto não oficial, feito por fãs. Não contém arquivos do jogo. Você precisa ter a sua própria cópia.",
@@ -226,7 +226,7 @@ const pt = {
     word: "Créditos",
     tape: "Feito pela comunidade, código aberto sob GPL-2.0",
     items: {
-      felipe: "Mantém o gow3_pc e adaptou o patch de 240 FPS",
+      felipe: "Mantém o SpartanPort e adaptou o patch de 240 FPS",
       cuesta4: "Correções de renderização do jogo no shadPS4",
       shadps4: "Núcleo de vídeo que traduz GPU e shaders para Vulkan",
       deadinside28: "bloodborne_pc, o port original",
@@ -237,13 +237,13 @@ const pt = {
 
   footer: {
     portTitle: "O port",
-    portBefore: "O gow3_pc é um projeto de",
+    portBefore: "O SpartanPort é um projeto de",
     portMiddle: ", que cria e mantém o port. Downloads, issues e código ficam no",
     portLink: "repositório oficial",
     pageTitle: "Esta página",
     pageBefore: "Página feita por",
     pageMiddle: ". O código está aberto em",
-    notice: "gow3_pc é um projeto independente, não oficial e sem fins lucrativos.",
+    notice: "SpartanPort é um projeto independente, não oficial e sem fins lucrativos.",
     legal: "Aviso legal",
     linksAria: "Links do projeto",
     links: { repo: "Repositório", issues: "Issues", pageRepo: "Código desta página" },
@@ -252,7 +252,7 @@ const pt = {
   legal: {
     title: "Aviso legal",
     paragraphs: [
-      "gow3_pc é um projeto independente, não oficial e sem fins lucrativos. Não tem afiliação, patrocínio ou endosso da Sony Interactive Entertainment, do Santa Monica Studio ou de qualquer empresa ligada a eles. Todas as marcas citadas pertencem aos seus donos.",
+      "SpartanPort é um projeto independente, não oficial e sem fins lucrativos. Não tem afiliação, patrocínio ou endosso da Sony Interactive Entertainment, do Santa Monica Studio ou de qualquer empresa ligada a eles. Todas as marcas citadas pertencem aos seus donos.",
       "Este projeto não distribui código, arquivos, assets, chaves nem firmware do jogo ou do console. Para usar, você precisa de um dump da sua própria cópia, obtido legalmente no seu próprio console. Não damos suporte a pirataria e não ajudamos a obter cópias do jogo.",
       "As imagens e vídeos desta página são capturas de tela do port em funcionamento, usadas só para demonstração.",
     ],

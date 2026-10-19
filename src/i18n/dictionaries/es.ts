@@ -2,13 +2,13 @@ import type { Dictionary } from "./pt";
 
 const es: Dictionary = {
   meta: {
-    title: "gow3_pc: port nativo no oficial para PC",
-    titleTemplate: "%s · gow3_pc",
+    title: "SpartanPort: port nativo no oficial para PC",
+    titleTemplate: "%s · SpartanPort",
     description: "Port nativo y no oficial de un juego de PS4 para Windows y Linux. Funciona a partir del dump de tu propia copia (CUSA01623 o CUSA01715). Código abierto, GPL-2.0.",
     tutorialsTitle: "Guías",
-    tutorialsDescription: "Soluciones para los problemas más comunes de gow3_pc, a partir de la línea que aparece en last_run.log.",
+    tutorialsDescription: "Soluciones para los problemas más comunes de SpartanPort, a partir de la línea que aparece en last_run.log.",
     legalTitle: "Aviso legal",
-    legalDescription: "Aviso legal de gow3_pc: proyecto no oficial, sin archivos del juego, con un canal para solicitudes de retirada.",
+    legalDescription: "Aviso legal de SpartanPort: proyecto no oficial, sin archivos del juego, con un canal para solicitudes de retirada.",
   },
 
   common: {
@@ -25,7 +25,7 @@ const es: Dictionary = {
   },
 
   header: {
-    homeAria: "gow3_pc, inicio",
+    homeAria: "SpartanPort, inicio",
     tagline: "Port no oficial",
     sectionsAria: "Secciones",
     openMenu: "Abrir menú",
@@ -45,7 +45,7 @@ const es: Dictionary = {
 
   hero: {
     eyebrow: "Port nativo no oficial · Windows y Linux",
-    title: "gow3_pc",
+    title: "SpartanPort",
     subtitle: "Port nativo y no oficial para PC de un clásico de acción de PS4. Tú pones tu copia, nosotros el ejecutable y el launcher.",
     lede: "Ejecuta el juego a partir del dump de tu propia copia, directamente en la CPU y sin emulación. 120 FPS por defecto, hasta 240.",
     notice: "Proyecto no oficial, hecho por fans. No contiene archivos del juego. Necesitas tu propia copia.",
@@ -225,7 +225,7 @@ const es: Dictionary = {
     word: "Créditos",
     tape: "Hecho por la comunidad, código abierto bajo GPL-2.0",
     items: {
-      felipe: "Mantiene gow3_pc y adaptó el parche de 240 FPS",
+      felipe: "Mantiene SpartanPort y adaptó el parche de 240 FPS",
       cuesta4: "Correcciones de renderizado del juego en shadPS4",
       shadps4: "El núcleo de vídeo que traduce la GPU y los shaders a Vulkan",
       deadinside28: "bloodborne_pc, el port original",
@@ -236,13 +236,13 @@ const es: Dictionary = {
 
   footer: {
     portTitle: "El port",
-    portBefore: "gow3_pc es un proyecto de",
+    portBefore: "SpartanPort es un proyecto de",
     portMiddle: ", que crea y mantiene el port. Descargas, issues y código están en el",
     portLink: "repositorio oficial",
     pageTitle: "Esta página",
     pageBefore: "Página hecha por",
     pageMiddle: ". El código está abierto en",
-    notice: "gow3_pc es un proyecto independiente, no oficial y sin ánimo de lucro.",
+    notice: "SpartanPort es un proyecto independiente, no oficial y sin ánimo de lucro.",
     legal: "Aviso legal",
     linksAria: "Enlaces del proyecto",
     links: { repo: "Repositorio", issues: "Issues", pageRepo: "Código de esta página" },
@@ -251,7 +251,7 @@ const es: Dictionary = {
   legal: {
     title: "Aviso legal",
     paragraphs: [
-      "gow3_pc es un proyecto independiente, no oficial y sin ánimo de lucro. No tiene afiliación, patrocinio ni respaldo de Sony Interactive Entertainment, de Santa Monica Studio ni de ninguna empresa vinculada a ellos. Todas las marcas citadas pertenecen a sus propietarios.",
+      "SpartanPort es un proyecto independiente, no oficial y sin ánimo de lucro. No tiene afiliación, patrocinio ni respaldo de Sony Interactive Entertainment, de Santa Monica Studio ni de ninguna empresa vinculada a ellos. Todas las marcas citadas pertenecen a sus propietarios.",
       "Este proyecto no distribuye código, archivos, assets, claves ni firmware del juego o de la consola. Para usarlo, necesitas un dump de tu propia copia, obtenido legalmente en tu propia consola. No damos soporte a la piratería ni ayudamos a conseguir copias del juego.",
       "Las imágenes y vídeos de esta página son capturas de pantalla del port en funcionamiento, usadas solo con fines de demostración.",
     ],

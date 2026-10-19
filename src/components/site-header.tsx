@@ -42,7 +42,7 @@ export async function SiteHeader({ release, page }: { release: ReleaseData; page
           <span className="hidden sm:inline">{t.common.download}</span>
         </Link>
 
-        <MobileMenu.Root openLabel={t.header.openMenu} title="gow3_pc" subtitle={t.header.menuSubtitle}>
+        <MobileMenu.Root openLabel={t.header.openMenu} title="SpartanPort" subtitle={t.header.menuSubtitle}>
           <MobileMenu.Links label={t.header.sectionsAria} links={links} />
           <MobileMenu.Footer>
             <LanguageSwitcher current={locale} label={t.header.language} className="self-start" />

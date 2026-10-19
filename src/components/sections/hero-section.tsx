@@ -6,6 +6,7 @@ import { Telemetry } from "@/components/telemetry";
 import { getI18n } from "@/i18n/get-dictionary";
 import { formatDate, formatInt, formatMiB } from "@/lib/format";
 import type { ReleaseData } from "@/lib/release";
+import wordmark from "@/assets/wordmark.webp";
 import chamber from "@/assets/shots/chamber.webp";
 import arc from "@/assets/shots/hero-arc.webp";
 import portal from "@/assets/shots/hero-portal.webp";
@@ -30,7 +31,7 @@ export async function HeroSection({ release }: { release: ReleaseData }) {
       <Hero.Root slides={slides} caption={t.common.capture}>
         <Hero.Copy>
           <Hero.Eyebrow>{t.hero.eyebrow}</Hero.Eyebrow>
-          <Hero.Title subtitle={t.hero.subtitle}>{t.hero.title}</Hero.Title>
+          <Hero.Title subtitle={t.hero.subtitle} wordmark={wordmark}>{t.hero.title}</Hero.Title>
           <Hero.Lede>{t.hero.lede}</Hero.Lede>
           <Hero.Actions>
             {win && (

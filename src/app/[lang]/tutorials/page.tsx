@@ -16,7 +16,7 @@ export async function generateMetadata(): Promise<Metadata> {
   return {
     title: t.meta.tutorialsTitle,
     description: t.meta.tutorialsDescription,
-    openGraph: { title: `${t.meta.tutorialsTitle} · gow3_pc`, description: t.meta.tutorialsDescription, siteName: "gow3_pc", locale: tag.replace("-", "_") },
+    openGraph: { title: `${t.meta.tutorialsTitle} · SpartanPort`, description: t.meta.tutorialsDescription, siteName: "SpartanPort", locale: tag.replace("-", "_") },
     alternates: {
       canonical: `/${locale}/tutorials`,
       languages: Object.fromEntries(locales.map((l) => [htmlLang[l], `/${l}/tutorials`])),

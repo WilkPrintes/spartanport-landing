@@ -2,13 +2,13 @@ import type { Dictionary } from "./pt";
 
 const en: Dictionary = {
   meta: {
-    title: "gow3_pc: unofficial native PC port",
-    titleTemplate: "%s · gow3_pc",
+    title: "SpartanPort: unofficial native PC port",
+    titleTemplate: "%s · SpartanPort",
     description: "Unofficial native port of a PS4 game to Windows and Linux. Runs from a dump of your own copy (CUSA01623 or CUSA01715). Open source, GPL-2.0.",
     tutorialsTitle: "Guides",
-    tutorialsDescription: "Fixes for the most common gow3_pc problems, starting from the line in last_run.log.",
+    tutorialsDescription: "Fixes for the most common SpartanPort problems, starting from the line in last_run.log.",
     legalTitle: "Legal notice",
-    legalDescription: "gow3_pc legal notice: an unofficial project with no game files, and a channel for takedown requests.",
+    legalDescription: "SpartanPort legal notice: an unofficial project with no game files, and a channel for takedown requests.",
   },
 
   common: {
@@ -25,7 +25,7 @@ const en: Dictionary = {
   },
 
   header: {
-    homeAria: "gow3_pc, home",
+    homeAria: "SpartanPort, home",
     tagline: "Unofficial port",
     sectionsAria: "Sections",
     openMenu: "Open menu",
@@ -45,7 +45,7 @@ const en: Dictionary = {
 
   hero: {
     eyebrow: "Unofficial native port · Windows and Linux",
-    title: "gow3_pc",
+    title: "SpartanPort",
     subtitle: "An unofficial native PC port of a PS4 action classic. You bring your copy, we provide the executable and the launcher.",
     lede: "Runs the game from a dump of your own copy, straight on the CPU with no emulation. 120 FPS by default, up to 240.",
     notice: "Unofficial fan project. Contains no game files. You need your own copy.",
@@ -220,7 +220,7 @@ const en: Dictionary = {
     word: "Credits",
     tape: "Made by the community, open source under GPL-2.0",
     items: {
-      felipe: "Maintains gow3_pc and adapted the 240 FPS patch",
+      felipe: "Maintains SpartanPort and adapted the 240 FPS patch",
       cuesta4: "Rendering fixes for the game in shadPS4",
       shadps4: "The video core that translates the GPU and shaders to Vulkan",
       deadinside28: "bloodborne_pc, the original port",
@@ -231,13 +231,13 @@ const en: Dictionary = {
 
   footer: {
     portTitle: "The port",
-    portBefore: "gow3_pc is a project by",
+    portBefore: "SpartanPort is a project by",
     portMiddle: ", who creates and maintains the port. Downloads, issues and code live in the",
     portLink: "official repository",
     pageTitle: "This page",
     pageBefore: "Page made by",
     pageMiddle: ". The code is open at",
-    notice: "gow3_pc is an independent, unofficial, non-profit project.",
+    notice: "SpartanPort is an independent, unofficial, non-profit project.",
     legal: "Legal notice",
     linksAria: "Project links",
     links: { repo: "Repository", issues: "Issues", pageRepo: "This page's code" },
@@ -246,7 +246,7 @@ const en: Dictionary = {
   legal: {
     title: "Legal notice",
     paragraphs: [
-      "gow3_pc is an independent, unofficial, non-profit project. It is not affiliated with, sponsored or endorsed by Sony Interactive Entertainment, Santa Monica Studio or any company related to them. All trademarks mentioned belong to their owners.",
+      "SpartanPort is an independent, unofficial, non-profit project. It is not affiliated with, sponsored or endorsed by Sony Interactive Entertainment, Santa Monica Studio or any company related to them. All trademarks mentioned belong to their owners.",
       "This project does not distribute any code, files, assets, keys or firmware from the game or the console. To use it, you need a dump of your own copy, obtained legally on your own console. We do not support piracy and do not help anyone obtain copies of the game.",
       "The images and videos on this page are screen captures of the port running, used for demonstration only.",
     ],

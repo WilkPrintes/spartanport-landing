@@ -33,7 +33,7 @@ export async function generateMetadata(): Promise<Metadata> {
   return {
     title: { default: t.meta.title, template: t.meta.titleTemplate },
     description: t.meta.description,
-    openGraph: { title: t.meta.title, description: t.meta.description, siteName: "gow3_pc", locale: tag.replace("-", "_") },
+    openGraph: { title: t.meta.title, description: t.meta.description, siteName: "SpartanPort", locale: tag.replace("-", "_") },
     alternates: {
       canonical: `/${locale}`,
       languages: Object.fromEntries(locales.map((l) => [htmlLang[l], `/${l}`])),

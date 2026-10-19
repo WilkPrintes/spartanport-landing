@@ -1,6 +1,6 @@
-# gow3_pc · landing page
+# SpartanPort · landing page
 
-Página de download do [gow3_pc](https://github.com/FelipePrado0/gow3_pc), port nativo e não oficial de um jogo de PS4 para Windows e Linux (CUSA01623 ou CUSA01715).
+Página de download do [SpartanPort](https://github.com/FelipePrado0/gow3_pc) (antes gow3_pc), port nativo e não oficial de um jogo de PS4 para Windows e Linux (CUSA01623 ou CUSA01715).
 
 O objetivo da página é um só: o jogador baixar a versão mais recente com o menor esforço. Abaixo do download ficam desempenho, recursos, compatibilidade de GPU e créditos, e uma página de tutoriais para os problemas mais comuns.
 
@@ -12,7 +12,7 @@ O objetivo da página é um só: o jogador baixar a versão mais recente com o m
 - [Tailwind CSS 4](https://tailwindcss.com) e componentes [shadcn/ui](https://ui.shadcn.com) sobre Base UI
 - [GSAP](https://gsap.com) com ScrollTrigger e SplitText para as animações
 - Fontes via `next/font`:
-  - **Cinzel** (SIL OFL, 700 a 900) nos títulos e botões principais. Nenhuma fonte da franquia. O logo é o do próprio projeto, `launcher/gow3.png` do repositório gow3_pc.
+  - **Cinzel** (SIL OFL, 700 a 900) nos títulos e botões principais. Nenhuma fonte da franquia. O logo e o nome em imagem são os do próprio projeto (`src/assets/logo.png` e `src/assets/wordmark.webp`).
   - **Archivo** no texto corrido e **JetBrains Mono** nos dados técnicos.
 
 ## Dados sempre atualizados

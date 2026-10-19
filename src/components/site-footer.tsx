@@ -42,14 +42,14 @@ export async function SiteFooter() {
           </a>
           {f.pageMiddle}{" "}
           <a className={nameLink} href={PAGE_REPO_URL}>
-            WilkPrintes/gow3-pc-landing
+            WilkPrintes/spartanport-landing
           </a>
           .
         </Credit>
       </div>
       <div className="mx-auto flex w-full max-w-[1360px] flex-wrap items-center justify-between gap-6 px-4 sm:px-8 lg:px-14">
         <div className="flex items-center gap-3.5">
-          <Image src={logo} alt="" width={28} height={28} className="shrink-0 rounded-md" />
+          <Image src={logo} alt="" width={32} height={32} className="shrink-0" />
           <p className="max-w-[640px] text-[12.5px] text-steel">
             {f.notice}{" "}
             <Link className="text-soft underline decoration-line-strong underline-offset-4 hover:text-foreground hover:decoration-gold-hi" href={`/${locale}/legal`}>

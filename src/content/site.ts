@@ -5,7 +5,7 @@
  */
 
 export const PORT_REPO_URL = "https://github.com/FelipePrado0/gow3_pc";
-export const PAGE_REPO_URL = "https://github.com/WilkPrintes/gow3-pc-landing";
+export const PAGE_REPO_URL = "https://github.com/WilkPrintes/spartanport-landing";
 export const AUTHOR_URL = "https://github.com/WilkPrintes";
 export const PORT_AUTHOR_URL = "https://github.com/FelipePrado0";
 

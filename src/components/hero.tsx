@@ -8,7 +8,7 @@ import { cn } from "@/lib/utils";
  *   <Hero.Root slides={[{ src, position }]} caption="…">
  *     <Hero.Copy>
  *       <Hero.Eyebrow>…</Hero.Eyebrow>
- *       <Hero.Title subtitle="…">gow3_pc</Hero.Title>
+ *       <Hero.Title subtitle="…" wordmark={image}>SpartanPort</Hero.Title>
  *       <Hero.Lede>…</Hero.Lede>
  *       <Hero.Actions>…</Hero.Actions>
  *       <Hero.Meta>…</Hero.Meta>
@@ -73,11 +73,16 @@ function Eyebrow({ children }: { children: ReactNode }) {
   return <span className="caption text-gold-hi">{children}</span>;
 }
 
-function Title({ subtitle, children }: { subtitle?: ReactNode; children: ReactNode }) {
+/** The H1 shows the wordmark image when given; the text stays as its alt for readers and search */
+function Title({ subtitle, wordmark, children }: { subtitle?: ReactNode; wordmark?: StaticImageData; children: string }) {
   return (
     <div className="flex flex-col gap-3">
       <h1 className="display-epic text-[clamp(40px,4.6vw,68px)] uppercase" data-gsap="split">
-        {children}
+        {wordmark ? (
+          <NextImage src={wordmark} alt={children} priority sizes="(min-width: 640px) 520px, 90vw" className="block h-auto w-full max-w-[520px]" />
+        ) : (
+          children
+        )}
       </h1>
       {subtitle && <p className="max-w-[500px] text-[17px] leading-snug font-semibold text-pretty text-foreground/90 sm:text-lg">{subtitle}</p>}
     </div>
